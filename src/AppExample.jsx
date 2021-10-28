@@ -21,7 +21,7 @@ import Layout from "./Layout";
   경로에서 ./은 현재위치를 표현
 */
 
-function App() {
+function AppExample() {
   return (
     <>
       {/* <Hello01 /> */}
@@ -46,4 +46,4 @@ function App() {
   );
 }
 
-export default App;
+export default AppExample;
