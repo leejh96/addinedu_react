@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import AppTodo from './AppTodo.jsx';
+// import AppTodo from './AppTodo.jsx';
+import AppExample from './AppExample';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <AppTodo />
+    {/* <AppTodo /> */}
+    <AppExample />
   </React.StrictMode>,
   document.getElementById('root')
 );
