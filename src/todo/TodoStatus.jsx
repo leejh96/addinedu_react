@@ -1,10 +1,10 @@
 import React from "react";
 import status from "./todostatus.module.css";
-function TodoStatus() {
+function TodoStatus({ length }) {
   return (
     <section className="section">
       <div className={status.wrap}>
-        <div className={status.left}>10개 남음</div>
+        <div className={status.left}>{length}개 남음</div>
         <div className={status.filter}>
           <button className={status.btn} type="button">
             전체목록

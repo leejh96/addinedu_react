@@ -23,8 +23,10 @@ import React from "react";
 // import HookUseState04 from "./HookUseState04";
 // import HookUseRef from "./HookUseRef";
 // import Array01 from "./Array01";
-import Array02 from "./Array02";
-import Array04 from "./Array04";
+// import Array02 from "./Array02";
+// import Array04 from "./Array04";
+import Array05 from "./Array05";
+
 
 function AppExample() {
   return (
@@ -55,7 +57,8 @@ function AppExample() {
       {/* <HookUseRef /> */}
       {/* <Array01 /> */}
       {/* <Array02 /> */}
-      <Array04/>
+      {/* <Array04/> */}
+      <Array05 />
     </>
   );
 }
