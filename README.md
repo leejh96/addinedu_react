@@ -260,3 +260,20 @@ footer : TodoFooter.jsx
 ```
 
 - JS 기능 구현
+```
+header 
+- 항목 추가 기능 : createTodo
+- 인풋 텍스트 : updateTodo
+- 항목 개수 표시 업데이트
+
+contents : 
+  - list container 
+    - list item
+      - 항목 삭제 : removeTodo
+      - 항목 개수 표시 업데이트
+      - 체크박스 상태관리
+  - status
+    -
+
+footer
+```

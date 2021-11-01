@@ -4,6 +4,9 @@
   display: flex;
   border-bottom: 1px solid #555;
 }
+.hide{
+  display: none;
+}
 .item-check {
   width: 25px;
   height: 25px;
@@ -32,6 +35,7 @@
   padding: 0;
   border: 0;
   background: none;
+  cursor: pointer;
 }
 
 .item-image {
